@@ -45,7 +45,7 @@ This repository contains a collection of deep learning models for remote sensing
 
 ## CNN
 
-- `[J-STARS 2018 STFDCNN]` [[paper]](https://ieeexplore.ieee.org/document/8291042/?arnumber=8291042) 
+- `[JSTARS 2018 STFDCNN]` [[paper]](https://ieeexplore.ieee.org/document/8291042/?arnumber=8291042) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   H. Song, Q. Liu, G. Wang, R. Hang and B. Huang, "**Spatiotemporal Satellite Image Fusion 
   Using Deep Convolutional Neural Networks**," *<ins>IEEE J. Sel. Top. Appl. Earth Obs. 
@@ -79,19 +79,19 @@ This repository contains a collection of deep learning models for remote sensing
 
   <img src="README.assets/STTFN.png" alt="STTFN" style="zoom:40%;" />
 
-- `[J-STARS 2021 MCDNet]` [[paper]](https://ieeexplore.ieee.org/document/9540272/)
+- `[JSTARS 2021 MCDNet]` [[paper]](https://ieeexplore.ieee.org/document/9540272/)
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red)
   W. Li, C. Yang, Y. Peng and X. Zhang, "**A Multi-Cooperative Deep Convolutional Neural Network for Spatiotemporal Satellite Image Fusion**," *<ins>IEEE J. Sel. Top. Appl. EARTH Obs. REMOTE Sens.</ins>*, vol. 14, pp. 10174-10188, 2021, doi: 10.1109/JSTARS.2021.3113163.
 
   <img src="README.assets/MCDNet.png" alt="MCDNet" style="zoom:40%;" />
 
-- `[J-STARS 2021 MOST]` [[paper]](https://ieeexplore.ieee.org/document/9439158/)
+- `[JSTARS 2021 MOST]` [[paper]](https://ieeexplore.ieee.org/document/9439158/)
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red)
   J. Wei, W. Tang and C. He, "**Enblending Mosaicked Remote Sensing Images With Spatiotemporal Fusion of Convolutional Neural Networks**," *<ins>IEEE J. Sel. Top. Appl. Earth Observations Remote Sensing</ins>*, vol. 14, pp. 5891-5902, 2021, doi: 10.1109/JSTARS.2021.3082619.
 
   <img src="README.assets/MOST.png" alt="MOST" style="zoom:40%;" />
 
-- `[J-STARS 2022 MUSTFN]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843222003016)
+- `[JSTARS 2022 MUSTFN]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843222003016)
   [[code]](https://github.com/qpyeah/MUSTFN)   ![Stars](https://img.shields.io/github/stars/qpyeah/MUSTFN) 
   P. Qin, H. Huang, H. Tang, J. Wang and C. Liu, "**MUSTFN: A Spatiotemporal Fusion Method for Multi-Scale and Multi-Sensor Remote Sensing Images Based on a Convolutional Neural Network**," *<ins>Int. J. Appl. EARTH Obs. GEOINFORMATION</ins>*, vol. 115, Dec. 2022, doi: 10.1016/j.jag.2022.103113.
 
@@ -103,7 +103,7 @@ This repository contains a collection of deep learning models for remote sensing
 
   <img src="README.assets/DenseSTF.png" alt="DenseSTF" style="zoom:40%;" />
 
-- `[Remote Sens. 2022 STF-EGFA]` [[paper]](https://www.mdpi.com/2072-4292/14/13/3057)
+- `[RS 2022 STF-EGFA]` [[paper]](https://www.mdpi.com/2072-4292/14/13/3057)
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red)
   F. Cheng, Z. Fu, B. Tang, L. Huang, K. Huang and X. Ji, "**STF-EGFA: A Remote Sensing Spatiotemporal Fusion Network with Edge-Guided Feature Attention**," *<ins>Remote Sens.</ins>*, vol. 14, no. 13, pp. 3057, Jan. 2022, doi: 10.3390/rs14133057.
 
@@ -126,17 +126,17 @@ X. Zhang, S. Li, Z. Tan and X. Li, "**Enhanced Wavelet Based Spatiotemporal Fusi
 *<ins>ISPRS Journal of Photogrammetry and Remote Sensing</ins>*, vol. 211, pp. 281-297, May 2024, doi: 10.1016/j.isprsjprs.2024.04.016.
 <img src="README.assets/ECPW-STFN.png" alt="ECPW-STFN" style="zoom:40%;" />
 
-- `[J-STARS 2024 MLKNet]` [[paper]](https://ieeexplore.ieee.org/document/10342633/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
+- `[JSTARS 2024 MLKNet]` [[paper]](https://ieeexplore.ieee.org/document/10342633/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
 H. Jiang, Y. R. Qian, G. Q. Yang and H. Liu, "**MLKNet: Multi-Stage for Remote Sensing Image Spatiotemporal Fusion Network Based on a Large Kernel Attention**," 
 *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 17, pp. 1257-1268, 2024, doi: 10.1109/JSTARS.2023.3338978.
 <img src="README.assets/MLKNet.png" alt="MLKNet" style="zoom:40%;" />
 
-- `[J-STARS 2024 RCAN-FSDAF]` [[paper]](https://ieeexplore.ieee.org/document/10480541/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
+- `[JSTARS 2024 RCAN-FSDAF]` [[paper]](https://ieeexplore.ieee.org/document/10480541/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
 D. Cui, S. Wang, C. Zhao and H. Zhang, "**A Novel Remote Sensing Spatiotemporal Data Fusion Framework Based on the Combination of Deep-Learning Downscaling and Traditional Fusion Algorithm**," 
 *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 17, pp. 7957-7970, 2024, doi: 10.1109/JSTARS.2024.3382136.
 <img src="README.assets/RCAN-FSDAF.png" alt="RCAN-FSDAF" style="zoom:40%;" />
 
-- `[J-STARS 2024 CTSTFM]` [[paper]](https://ieeexplore.ieee.org/document/10614805/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
+- `[JSTARS 2024 CTSTFM]` [[paper]](https://ieeexplore.ieee.org/document/10614805/) ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
 M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spatiotemporal Fusion Model**," 
 *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 17, pp. 13995-14009, 2024, doi: 10.1109/JSTARS.2024.3435739.
 <img src="README.assets/CTSTFM.png" alt="CTSTFM" style="zoom:40%;" />
@@ -207,20 +207,20 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
   Z. Cui, J. Zhang, G. Noh and H. J. Park, "**MFDGCN: Multi-Stage Spatio-Temporal Fusion Diffusion Graph Convolutional Network for Traffic Prediction**," *<ins>Applied Sciences</ins>*, vol. 12, no. 5, pp. 2688, Jan. 2022, doi: 10.3390/app12052688.
 
   <img src="README.assets/MFDGCN.png" alt="MFDGCN" style="zoom:40%;" />
-
-- [INF. FUSION 2024 STFDiff] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1566253524002835) 
+   
+- `[Information Fusion 2024 STFDiff]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1566253524002835) 
   [[code]](https://github.com/prowDIY/STF)   ![Stars](https://img.shields.io/github/stars/prowDIY/STF) 
   H. Huang, W. He, HY Zhang, Y. Xia, LP Zhang, "**STFDiff: Remote Sensing Image Spatiotemporal Fusion with Diffusion Models**," *<ins>Inf. FUSION</ins>*, vol. 111, Nov. 2024, doi: 10.1016/j.inffus.2024.102505.
 
   <img src="README.assets/STFDiff.png" alt="STFDiff" style="zoom:40%;" />
 
-- [GRSL 2024 DiffSTF] [[paper]](https://ieeexplore.ieee.org/document/10474355/) 
+- `[GRSL 2024 DiffSTF]` [[paper]](https://ieeexplore.ieee.org/document/10474355/) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   Y. Ma, Q. Wang, J. Wei, "**Spatiotemporal Fusion via Conditional Diffusion Model**," *<ins>IEEE Geosci. Remote Sens. Lett.</ins>*, vol. 21, pp. 1-5, 2024, doi: 10.1109/LGRS.2024.3378715.
 
   <img src="README.assets/DiffSTF.png" alt="DiffSTF" style="zoom:40%;" />
 
-- [JAG 2024 DiffSTSF] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843224001067) 
+- `[JAG 2024 DiffSTSF]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843224001067) 
   [[code]](https://github.com/isstncu/gf1fusion)   ![Stars](https://img.shields.io/github/stars/isstncu/gf1fusion) 
   J. Wei, L. Gan, W. Tang, M. Li, Y. Song, "**Diffusion Models for Spatio-Temporal-Spectral Fusion of Homogeneous Gaofen-1 Satellite Platforms**," *<ins>International Journal of Applied Earth Observation and Geoinformation</ins>*, vol. 128, Apr. 2024, pp. 103752, doi: 10.1016/j.jag.2024.103752.
 
@@ -230,19 +230,19 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
 ## Sequence Model
 
-- [JHYDROL 2020 CNN-LSTM] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0022169420301244) 
+- `[JHYDROL 2020 CNN-LSTM]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0022169420301244) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   H. Wu, Q. Yang, J. Liu, G. Wang, "**A Spatiotemporal Deep Fusion Model for Merging Satellite and Gauge Precipitation in China**," *<ins>Journal of Hydrology</ins>*, vol. 584, May 2020, pp. 124664, doi: 10.1016/j.jhydrol.2020.124664.
 
   <img src="README.assets/CNN-LSTM.png" alt="CNN-LSTM" style="zoom:40%;" />
 
-- [IGARSS 2024 ConvLSTM] [[paper]](https://ieeexplore.ieee.org/document/10641699/) 
+- `[IGARSS 2024 ConvLSTM]` [[paper]](https://ieeexplore.ieee.org/document/10641699/) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   H. Cui, L. Chai, H. Li, S. Zhao, "**Spatiotemporal Fusion of Soil Freeze/Thaw Datasets at Decision-Level Based on Convolutional Long Short-Term Memory Network**," *<ins>IGARSS 2024 - 2024 IEEE Int. Geosci. Remote Sens. Symp.</ins>*, pp. 8983-8986, Jul. 2024, doi: 10.1109/IGARSS53475.2024.10641699.
 
   <img src="README.assets/ConvLSTM.png" alt="ConvLSTM" style="zoom:40%;" />
 
-- [APR 2024 Geo-BiLSTMA] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1309104224000722) 
+- `[APR 2024 Geo-BiLSTMA]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1309104224000722) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   T. Jia, G. Cheng, Z. Chen, J. Yang, Y. Li, "**Forecasting Urban Air Pollution Using Multi-Site Spatiotemporal Data Fusion Method (Geo-BiLSTMA)**," *<ins>Atmospheric Pollution Research</ins>*, vol. 15, no. 6, Jun. 2024, pp. 102107, doi: 10.1016/j.apr.2024.102107.
 
@@ -252,29 +252,36 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
 ## Others
 
-- [KNOSYS 2022 STHGCN] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0950705122010784) 
+- `[KNOSYS 2022 STHGCN]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0950705122010784) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   J. Wang, W. Wang, W. Yu, X. Liu, K. Jia, X. Li, M. Zhong, Y. Sun, Y. Xu, "**STHGCN: A Spatiotemporal Prediction Framework Based on Higher-Order Graph Convolution Networks**," *<ins>KNOSYS</ins>*, vol. 258, pp. 109985, Dec. 2022, doi: 10.1016/j.knosys.2022.109985.
 
   <img src="README.assets/STHGCN.png" alt="STHGCN" style="zoom:40%;" />
 
-- [JSTARS 2022 MSFusion] [[paper]](https://ieeexplore.ieee.org/document/9786792/?arnumber=9786792) 
+- `[JSTARS 2022 MSFusion]` [[paper]](https://ieeexplore.ieee.org/document/9786792/?arnumber=9786792) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   G. Yang, Y. Qian, H. Liu, B. Tang, R. Qi, Y. Lu, J. Geng, "**MSFusion: Multistage for Remote Sensing Image Spatiotemporal Fusion Based on Texture Transformer and Convolutional Neural Network**," *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 15, pp. 4653-4666, 2022, doi: 10.1109/JSTARS.2022.3179415.
 
   <img src="README.assets/MSFusion.png" alt="MSFusion" style="zoom:40%;" />
 
-- [GRSL 2023 StfMLP] [[paper]](https://ieeexplore.ieee.org/document/9999642/) 
+- `[GRSL 2023 StfMLP]` [[paper]](https://ieeexplore.ieee.org/document/9999642/) 
   [[code]](https://github.com/luhailaing-max/StfMLP-master) ![Stars](https://img.shields.io/github/stars/luhailaing-max/StfMLP-master) 
   G. S. Chen, H. L. Lu, D. L. Di, L. H. Li, M. Emam, W. P. Jing, "**StfMLP: Spatiotemporal Fusion Multilayer Perceptron for Remote-Sensing Images**," *<ins>IEEE Geoscience and Remote Sensing Letters</ins>*, vol. 20, 2023, doi: 10.1109/LGRS.2022.3230720.
 
   <img src="README.assets/StfMLP.png" alt="StfMLP" style="zoom:40%;" />
 
-- [ISPRS 2023 DSTFNet] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0924271623002630) 
+- `[ISPRS 2023 DSTFNet]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0924271623002630) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
   Z. Cai, Q. Hu, X. Zhang, J. Yang, H. Wei, J. Wang, Y. Zeng, G. Yin, W. Li, L. You, B. Xu, Z. Shi, "**Improving Agricultural Field Parcel Delineation with a Dual Branch Spatiotemporal Fusion Network by Integrating Multimodal Satellite Data**," *<ins>ISPRS Journal of Photogrammetry and Remote Sensing</ins>*, vol. 205, pp. 34-49, Nov. 2023, doi: 10.1016/j.isprsjprs.2023.09.021.
 
   <img src="README.assets/DSTFNet.png" alt="DSTFNet" style="zoom:40%;" />
+
+- `[JSTARS 2024 SDCS]` [[paper]](https://ieeexplore.ieee.org/document/10696963/) 
+  ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
+  P. Liu, L. Wang, J. Chen, Y. Cui, "**Semiblind Compressed Sensing: A Bidirectional-Driven Method for Spatiotemporal Fusion of Remote Sensing Images**," 
+  *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 17, pp. 19048-19066, 2024, doi: 10.1109/JSTARS.2024.3463750.
+
+  <img src="README.assets/SDCS.png" alt="SDCS" style="zoom:40%;" />
 
 <span id="head2"></span>
 
