@@ -2,23 +2,48 @@
 
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>  <img src="https://img.shields.io/badge/CNN-16-FF6F00" alt="CNN"/>  <img src="https://img.shields.io/badge/Transformer-5-FF6F00" alt="Transformer"/>  <img src="https://img.shields.io/badge/GAN-5-FF6F00" alt="GAN"/>  <img src="https://img.shields.io/badge/Diffusion-4-FF6F00" alt="Diffusion"/>  <img src="https://img.shields.io/badge/Sequence%20Models-3-FF6F00" alt="Sequence Models"/>  <img src="https://img.shields.io/badge/Others-4-FF6F00" alt="Others"/>  ![Stars](https://img.shields.io/github/stars/Eldenlordd/DL-RS-STFusion)
 
-
-
-This repository contains a collection of deep learning models for remote sensing spatiotemporal fusion. It will be updated regularly with new models and improvements. Feel free to follow for regular updates!
-
+This repository contains a collection of deep learning models for remote sensing spatiotemporal fusion. It includes sections on relevant survey papers, various deep learning model categories, and commonly used datasets in the field. The repository aims to serve as a helpful reference for researchers and practitioners.
 
 # Table of contents
 
-- [ CNN](#head1)
-- [ Transformer](#head2)
-- [ GAN](#head3)
-- [ Diffusion Model](#head4)
-- [ Sequence Model](#head5)
-- [ Others](#head6)
+- [ Survey](#head0)
+- [ Deep Learning Models](#head1)
+  - [ CNN](#head1-1)
+  - [ Transformer](#head1-2)
+  - [ GAN](#head1-3)
+  - [ Diffusion Model](#head1-4)
+  - [ Sequence Model](#head1-5)
+  - [ Others](#head1-6)
+- [ Datasets](#head2)
+
+<span id="head0"></span>
+
+# Survey
+
+- `[RS 2018]` [[paper]](https://www.mdpi.com/2072-4292/10/4/527)
+  X. Zhu, F. Cai, J. Tian and T. Williams, "**Spatiotemporal Fusion of Multisource Remote Sensing Data: Literature Survey, Taxonomy, Principles, Applications, and Future Directions**," *<ins>Remote Sensing</ins>*, vol. 10, no. 4, pp. 527, Mar. 2018, doi: 10.3390/rs10040527.
+
+- `[RS 2019]` [[paper]](https://www.mdpi.com/2072-4292/11/7/818)
+  M. Belgiu and A. Stein, "**Spatiotemporal Image Fusion in Remote Sensing**," *<ins>Remote Sensing</ins>*, vol. 11, no. 7, pp. 818, Jan. 2019, doi: 10.3390/rs11070818.
+
+- `[SCIS 2020]` [[paper]](https://link.springer.com/10.1007/s11432-019-2785-y)
+  J. Li, Y. Li, L. He, J. Chen and A. Plaza, "**Spatio-Temporal Fusion for Remote Sensing Data: An Overview and New Benchmark**," *<ins>Science China Information Sciences</ins>*, vol. 63, no. 4, pp. 140301, Apr. 2020, doi: 10.1007/s11432-019-2785-y.
+
+- `[GRSM 2021]` [[paper]](https://ieeexplore.ieee.org/document/9353399/?arnumber=9353399)
+  P. Wu, Z. Yin, C. Zeng, S. B. Duan, F. M. Göttsche, X. Ma, X. Li, H. Yang and H. Shen, "**Spatially Continuous and High-Resolution Land Surface Temperature Product Generation: A Review of Reconstruction and Spatiotemporal Fusion Techniques**," *<ins>IEEE Geoscience and Remote Sensing Magazine</ins>*, vol. 9, no. 3, pp. 112-137, Sep. 2021, doi: 10.1109/MGRS.2021.3050782.
+
+- `[JAG 2022]` [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843222001248)
+  J. Li, D. Hong, L. Gao, J. Yao, K. Zheng, B. Zhang and J. Chanussot, "**Deep Learning in Multimodal Remote Sensing Data Fusion: A Comprehensive Review**," *<ins>International Journal of Applied Earth Observation and Geoinformation</ins>*, vol. 112, pp. 102926, Aug. 2022, doi: 10.1016/j.jag.2022.102926.
+
+<!-- Add your survey papers here -->
 
 <span id="head1"></span>
 
-# CNN
+# Deep Learning Models
+
+<span id="head1-1"></span>
+
+## CNN
 
 - `[J-STARS 2018 STFDCNN]` [[paper]](https://ieeexplore.ieee.org/document/8291042/?arnumber=8291042) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
@@ -116,9 +141,9 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 *<ins>IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.</ins>*, vol. 17, pp. 13995-14009, 2024, doi: 10.1109/JSTARS.2024.3435739.
 <img src="README.assets/CTSTFM.png" alt="CTSTFM" style="zoom:40%;" />
 
-<span id="head2"></span>
+<span id="head1-2"></span>
 
-# Transformer
+## Transformer
 
 - `[TGRS 2022 SwinSTFM]` [[paper]](https://ieeexplore.ieee.org/document/9795183/) [[code]](https://github.com/LouisChen0104/swinstfm) ![Stars](https://img.shields.io/github/stars/LouisChen0104/swinstfm) 
   G. Chen, P. Jiao, Q. Hu, L. Xiao and Z. Ye, "**SwinSTFM: Remote Sensing Spatiotemporal Fusion Using Swin Transformer**," *<ins>IEEE Trans. Geosci. Remote Sens.</ins>*, vol. 60, pp. 1-18, 2022, doi: 10.1109/TGRS.2022.3182809.
@@ -145,9 +170,9 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
   <img src="README.assets/MGSFformer.png" alt="MGSFformer" style="zoom:40%;" />
 
-<span id="head3"></span>
+<span id="head1-3"></span>
 
-# GAN
+## GAN
 
 - `[TGRS 2022 MLFF-GAN]` [[paper]](https://ieeexplore.ieee.org/document/9781347/) [[code]](https://github.com/songbingze/MLFF-GAN) ![Stars](https://img.shields.io/github/stars/songbingze/MLFF-GAN) 
   B. Song, P. Liu, J. Li, L. Wang, L. Zhang, G. He, L. Chen and J. Liu, "**MLFF-GAN: A Multilevel Feature Fusion With GAN for Spatiotemporal Remote Sensing Images**," *<ins>IEEE Trans. Geosci. Remote Sens.</ins>*, vol. 60, pp. 1-16, 2022, doi: 10.1109/TGRS.2022.3169916.
@@ -174,50 +199,9 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
   <img src="README.assets/DCDGAN-STF.png" alt="DCDGAN-STF" style="zoom:40%;" />
 
-- `[Applied Sciences 2022 MFDGCN]` [[paper]](https://www.mdpi.com/2076-3417/12/5/2688) 
-  Z. Cui, J. Zhang, G. Noh and H. J. Park, "**MFDGCN: Multi-Stage Spatio-Temporal Fusion Diffusion Graph Convolutional Network for Traffic Prediction**," *<ins>Applied Sciences</ins>*, vol. 12, no. 5, pp. 2688, Jan. 2022, doi: 10.3390/app12052688.
+<span id="head1-4"></span>
 
-  <img src="README.assets/MFDGCN.png" alt="MFDGCN" style="zoom:40%;" />
-
-- [INF. FUSION 2024 STFDiff] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1566253524002835) 
-  [[code]](https://github.com/prowDIY/STF)   ![Stars](https://img.shields.io/github/stars/prowDIY/STF) 
-  H. Huang, W. He, HY Zhang, Y. Xia, LP Zhang, "**STFDiff: Remote Sensing Image Spatiotemporal Fusion with Diffusion Models**," *<ins>Inf. FUSION</ins>*, vol. 111, Nov. 2024, doi: 10.1016/j.inffus.2024.102505.
-
-  <img src="README.assets/STFDiff.png" alt="STFDiff" style="zoom:40%;" />
-
-- [GRSL 2024 DiffSTF] [[paper]](https://ieeexplore.ieee.org/document/10474355/) 
-  ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
-  Y. Ma, Q. Wang, J. Wei, "**Spatiotemporal Fusion via Conditional Diffusion Model**," *<ins>IEEE Geosci. Remote Sens. Lett.</ins>*, vol. 21, pp. 1-5, 2024, doi: 10.1109/LGRS.2024.3378715.
-
-  <img src="README.assets/DiffSTF.png" alt="DiffSTF" style="zoom:40%;" />
-
-- [JAG 2024 DiffSTSF] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1569843224001067) 
-  [[code]](https://github.com/isstncu/gf1fusion)   ![Stars](https://img.shields.io/github/stars/isstncu/gf1fusion) 
-  J. Wei, L. Gan, W. Tang, M. Li, Y. Song, "**Diffusion Models for Spatio-Temporal-Spectral Fusion of Homogeneous Gaofen-1 Satellite Platforms**," *<ins>International Journal of Applied Earth Observation and Geoinformation</ins>*, vol. 128, Apr. 2024, pp. 103752, doi: 10.1016/j.jag.2024.103752.
-
-  <img src="README.assets/DiffSTSF.png" alt="DiffSTSF" style="zoom:40%;" />
-
-- [JHYDROL 2020 CNN-LSTM] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0022169420301244) 
-  ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
-  H. Wu, Q. Yang, J. Liu, G. Wang, "**A Spatiotemporal Deep Fusion Model for Merging Satellite and Gauge Precipitation in China**," *<ins>Journal of Hydrology</ins>*, vol. 584, May 2020, pp. 124664, doi: 10.1016/j.jhydrol.2020.124664.
-
-  <img src="README.assets/CNN-LSTM.png" alt="CNN-LSTM" style="zoom:40%;" />
-
-- [IGARSS 2024 ConvLSTM] [[paper]](https://ieeexplore.ieee.org/document/10641699/) 
-  ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
-  H. Cui, L. Chai, H. Li, S. Zhao, "**Spatiotemporal Fusion of Soil Freeze/Thaw Datasets at Decision-Level Based on Convolutional Long Short-Term Memory Network**," *<ins>IGARSS 2024 - 2024 IEEE Int. Geosci. Remote Sens. Symp.</ins>*, pp. 8983-8986, Jul. 2024, doi: 10.1109/IGARSS53475.2024.10641699.
-
-  <img src="README.assets/ConvLSTM.png" alt="ConvLSTM" style="zoom:40%;" />
-
-- [APR 2024 Geo-BiLSTMA] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S1309104224000722) 
-  ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
-  T. Jia, G. Cheng, Z. Chen, J. Yang, Y. Li, "**Forecasting Urban Air Pollution Using Multi-Site Spatiotemporal Data Fusion Method (Geo-BiLSTMA)**," *<ins>Atmospheric Pollution Research</ins>*, vol. 15, no. 6, Jun. 2024, pp. 102107, doi: 10.1016/j.apr.2024.102107.
-
-  <img src="README.assets/Geo-BiLSTMA.png" alt="Geo-BiLSTMA" style="zoom:40%;" />
-
-<span id="head4"></span>
-
-# Diffusion Model
+## Diffusion Model
 
 - `[Applied Sciences 2022 MFDGCN]` [[paper]](https://www.mdpi.com/2076-3417/12/5/2688) 
   Z. Cui, J. Zhang, G. Noh and H. J. Park, "**MFDGCN: Multi-Stage Spatio-Temporal Fusion Diffusion Graph Convolutional Network for Traffic Prediction**," *<ins>Applied Sciences</ins>*, vol. 12, no. 5, pp. 2688, Jan. 2022, doi: 10.3390/app12052688.
@@ -242,9 +226,9 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
   <img src="README.assets/DiffSTSF.png" alt="DiffSTSF" style="zoom:40%;" />
 
-<span id="head5"></span>
+<span id="head1-5"></span>
 
-# Sequence Model
+## Sequence Model
 
 - [JHYDROL 2020 CNN-LSTM] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0022169420301244) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
@@ -264,9 +248,9 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
 
   <img src="README.assets/Geo-BiLSTMA.png" alt="Geo-BiLSTMA" style="zoom:40%;" />
 
-<span id="head6"></span>
+<span id="head1-6"></span>
 
-# Others
+## Others
 
 - [KNOSYS 2022 STHGCN] [[paper]](https://linkinghub.elsevier.com/retrieve/pii/S0950705122010784) 
   ![No Official Code](https://img.shields.io/badge/No%20Official%20Code-red) 
@@ -291,3 +275,120 @@ M. Jiang and H. Shao, "**A CNN-Transformer Combined Remote Sensing Imagery Spati
   Z. Cai, Q. Hu, X. Zhang, J. Yang, H. Wei, J. Wang, Y. Zeng, G. Yin, W. Li, L. You, B. Xu, Z. Shi, "**Improving Agricultural Field Parcel Delineation with a Dual Branch Spatiotemporal Fusion Network by Integrating Multimodal Satellite Data**," *<ins>ISPRS Journal of Photogrammetry and Remote Sensing</ins>*, vol. 205, pp. 34-49, Nov. 2023, doi: 10.1016/j.isprsjprs.2023.09.021.
 
   <img src="README.assets/DSTFNet.png" alt="DSTFNet" style="zoom:40%;" />
+
+<span id="head2"></span>
+
+# Datasets
+
+This section contains commonly used datasets for remote sensing spatiotemporal fusion research.
+
+## Earth Observation Datasets
+
+- **CIA (Coleambally Irrigation Area)** [[Link]](https://data.csiro.au/collections/collection/CIcsiro:5846v3)
+  - **Source**: Landsat-7 ETM+, MODIS
+  - **Resolution**: 30m (Landsat), 500m (MODIS), 16 days revisit
+  - **Region**: Coleambally, Australia
+
+- **LGC (Lower Gwydir Catchment)** [[Link]](https://data.csiro.au/collections/collection/CIcsiro:5847v003)
+  - **Source**: Landsat-5 TM, MODIS
+  - **Resolution**: 30m (Landsat), 500m (MODIS), 16 days revisit
+  - **Region**: Lower Gwydir, Australia
+
+- **Daxing Dataset** [[Link]](https://pan.baidu.com/disk/main#/index?category=all&path=%2FDatasets)
+  - **Source**: Landsat-8 OLI, MODIS
+  - **Resolution**: 30m (Landsat), 500m (MODIS), 8 days revisit
+  - **Region**: Daxing, Beijing, China
+
+- **AHB (Ar Horqin Banner)** [[Link]](https://pan.baidu.com/disk/main#/index?category=all&path=%2FDatasets)
+  - **Source**: Landsat-8 OLI, MOD09GA
+  - **Resolution**: 30m (Landsat), 500m (MODIS), 16 days revisit
+  - **Region**: Ar Horqin Banner, China
+
+- **Tianjin Dataset** [[Link]](https://pan.baidu.com/disk/main#/index?category=all&path=%2FDatasets)
+  - **Source**: Landsat-8 OLI, MOD02HKM
+  - **Resolution**: 30m (Landsat), 500m (MODIS), 16 days revisit
+  - **Region**: Tianjin, China
+
+- **BC (Butte County)** [[Link]](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2)
+  - **Source**: Sentinel-2 MSI, Sentinel-3 OLCI
+  - **Resolution**: 10m (S2), 300m (S3), Monthly
+  - **Region**: Southwest Butte County, California
+
+- **IC (Imperial County)** [[Link]](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2)
+  - **Source**: Sentinel-2 MSI, Sentinel-3 OLCI
+  - **Resolution**: 10m (S2), 300m (S3), Monthly
+  - **Region**: Imperial County, California
+
+- **S2 (Sentinel-2)** [[Link]](https://scilb.copernicus.eu)
+  - **Source**: Sentinel-2
+  - **Resolution**: 10m, 5-day revisit
+  - **Region**: Dafeng, China
+
+- **GOCI-II** [[Link]](https://www.nosc.go.kr/)
+  - **Source**: GOCI-II Satellite
+  - **Resolution**: 500m, hourly
+  - **Region**: Dafeng, China
+
+- **Wuhan Dataset** [[Link]](https://github.com/lixinghua5540/Wuhan-dataset)
+  - **Source**: GaoFen, Landsat
+  - **Resolution**: 8m (GF), 30m (Landsat)
+  - **Region**: Wuhan, China
+
+- **MOD09GA** [[Link]](https://ladsweb.modaps.eosdis.nasa.gov)
+  - **Source**: MODIS
+  - **Resolution**: 500m, Monthly
+  - **Region**: North China Plain
+
+## Ocean and Meteorological Datasets
+
+- **OISST** [[Link]](https://www.ncei.noaa.gov/products/optimum-interpolation-sst)
+  - **Source**: AVHRR, Buoy, Ship
+  - **Resolution**: 0.25° × 0.25°, Daily
+  - **Region**: Global Ocean
+
+- **OSTIA** [[Link]](http://marine.copernicus.eu/services-portfolio/access-to-products/)
+  - **Source**: Multi-satellite IR, MW, Buoy
+  - **Resolution**: 0.05° × 0.05°, Daily
+  - **Region**: Global Ocean
+
+- **G1SST** [[Link]](https://podaac.jpl.nasa.gov/dataset/JPL_OUROCEAN-L4UHfnd-GLOB-G1SST)
+  - **Source**: Geostationary, Polar Satellites
+  - **Resolution**: 0.01° × 0.01°, Daily
+  - **Region**: Global Ocean
+
+- **EARS** [[Link]](https://rda.ucar.edu)
+  - **Source**: ECMWF Model
+  - **Resolution**: 0.25° × 0.25°, Hourly
+  - **Region**: Global Ocean
+
+- **In-situ** [[Link]](http://www.nifs.go.kr/kodc)
+  - **Source**: Buoy Measurements
+  - **Resolution**: 16 Stations, Hourly
+  - **Region**: Korean waters
+
+- **TRMM** [[Link]](https://pmm.nasa.gov/data-access/downloads/trmm)
+  - **Source**: NASA GSFC PPS
+  - **Resolution**: 0.25°, 3-hourly
+  - **Region**: 50°N--50°S
+
+- **GridSat** [[Link]](https://www.ncdc.noaa.gov/gridsat/gridsat-index.php)
+  - **Source**: NOAA
+  - **Resolution**: 0.07°, 3-hourly
+  - **Region**: 70°S--70°N
+
+- **Rain** [[Link]](http://data.cma.cn/)
+  - **Source**: CMDC (China)
+  - **Resolution**: Point, 12-hourly
+  - **Region**: China
+
+- **DEM** [[Link]](http://srtm.csi.cgiar.org/srtmdata/)
+  - **Source**: USGS, NASA SRTM
+  - **Resolution**: 90m, N/A
+  - **Region**: 60°N--56°S
+
+## Multi-source Integrations
+
+- **Terra** [[Link]](https://www.selectdataset.com/dataset/5813a4f2da636c4f1c24dac729fab5e0)
+  - **Source**: Multi-source
+  - **Resolution**: 0.1°, 3-hourly
+  - **Region**: Global
